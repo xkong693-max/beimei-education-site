@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="倍美教育——为留学生提供课程、申诉、申请与职业发展支持。演示原型。">
+  <title>倍美教育｜让每一步，都更接近美好</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="notice">演示原型 · 品牌、数据与联系方式均为占位内容，未对外发布</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="倍美教育首页">
+      <img class="brand-logo-img" src="assets/beimei-official-logo.jpg" alt="倍美教育 BEIMEI EDUCATION">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button>
+    <nav id="main-nav" aria-label="主导航">
+      <a href="#services">服务方向</a>
+      <a href="#process">服务流程</a>
+      <a href="#boundaries">合规说明</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="header-cta" href="#consult">描述你的情况 <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">STUDY ABROAD SUPPORT · 留学事务综合支持</p>
+        <h1>留学路上遇到难题，<br><em>倍美陪你逐个解决。</em></h1>
+        <p class="hero-lead">从课程跟进、作业思路和考试复习，到撤课申诉、升学申请与求职准备，根据你的实际情况匹配服务方案。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#consult">免费梳理需求</a>
+          <a class="button secondary" href="#services">查看服务范围</a>
+        </div>
+        <ul class="trust-list" aria-label="服务原则">
+          <li><span>✓</span> 真实材料</li>
+          <li><span>✓</span> 一事一案</li>
+          <li><span>✓</span> 隐私优先</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-label="服务路径示意">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="mascot-stage">
+          <span class="mascot-label">倍美小鹿 · Q版形象</span>
+          <img src="assets/beimei-deer-brand-red-v4.png" alt="倍美教育红黑金配色Q版小鹿吉祥物，为留学生指引方向">
+          <div class="mascot-motto"><strong>让每一步</strong><span>都更接近美好</span></div>
+        </div>
+        <div class="floating-note note-one">先诊断<br><b>再行动</b></div>
+        <div class="floating-note note-two"><b>24h</b><br>内响应*</div>
+      </div>
+      <p class="hero-footnote">* 为原型中的服务承诺占位，正式上线前需按实际团队能力确认。</p>
+    </section>
+
+    <section class="quick-path" aria-labelledby="path-title">
+      <div class="section-heading compact">
+        <p class="eyebrow">START FROM YOUR SITUATION</p>
+        <h2 id="path-title">你现在最需要解决什么？</h2>
+      </div>
+      <div class="path-tabs" role="tablist" aria-label="问题类型">
+        <button class="path-tab active" data-target="course" role="tab" aria-selected="true">跟不上课程</button>
+        <button class="path-tab" data-target="appeal" role="tab" aria-selected="false">遇到学校事务</button>
+        <button class="path-tab" data-target="apply" role="tab" aria-selected="false">准备升学申请</button>
+        <button class="path-tab" data-target="career" role="tab" aria-selected="false">规划实习求职</button>
+      </div>
+      <div class="path-panel" id="path-panel">
+        <div><span>常见情况</span><strong id="path-situation">课程听不懂、作业无思路、考前需要系统梳理</strong></div>
+        <div><span>建议第一步</span><strong id="path-action">发送课程大纲、题目要求与截止时间，先评估知识缺口</strong></div>
+        <a href="#consult" id="path-link">按这个方向咨询 →</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT WE CAN HELP WITH</p>
+        <h2>结合你的学习情况，<br>制定更有针对性的服务方案。</h2>
+        <p>围绕当前问题、知识基础和时间安排，拆解重点难点，明确每个阶段需要完成的事情。</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card featured">
+          <span class="service-index">01</span>
+          <div class="service-icon">课</div>
+          <h3>课程与学业辅导</h3>
+          <p>结合课程进度与知识掌握情况，从题目要求拆解到知识体系梳理，帮助学生真正理解课程内容。</p>
+          <ul><li>作业思路解析</li><li>课程知识建构</li><li>作业反馈修改</li><li>考前强化复习</li></ul>
+          <button class="text-link select-service" data-service="课程与学业辅导">了解并咨询 →</button>
+        </article>
+        <article class="service-card">
+          <span class="service-index">02</span>
+          <div class="service-icon">申</div>
+          <h3>学校事务与申诉</h3>
+          <p>针对撤课、挂科、劝退及学术诚信等情况，梳理校方要求、关键时间线和申请材料。</p>
+          <ul><li>撤课申请</li><li>成绩复核</li><li>学术诚信申诉</li><li>学校沟通支持</li></ul>
+          <button class="text-link select-service" data-service="学校事务与申诉">了解并咨询 →</button>
+        </article>
+        <article class="service-card">
+          <span class="service-index">03</span>
+          <div class="service-icon">研</div>
+          <h3>升学与研究支持</h3>
+          <p>从个人背景盘点、院校方向到申请材料表达，一对一梳理申请重点与推进节奏。</p>
+          <ul><li>硕博申请规划</li><li>文书辅导修改</li><li>选校定位</li><li>申请进度管理</li></ul>
+          <button class="text-link select-service" data-service="升学与研究支持">了解并咨询 →</button>
+        </article>
+        <article class="service-card">
+          <span class="service-index">04</span>
+          <div class="service-icon">职</div>
+          <h3>实习与求职准备</h3>
+          <p>结合个人经历与目标岗位，完善求职材料、岗位方向、面试表达与阶段行动计划。</p>
+          <ul><li>中英文简历</li><li>实习方向规划</li><li>模拟面试</li><li>求职策略辅导</li></ul>
+          <button class="text-link select-service" data-service="实习与求职准备">了解并咨询 →</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="difference">
+      <div class="difference-copy">
+        <p class="eyebrow light">WHY BEIMEI</p>
+        <h2>从课内到课外，<br>陪你跟上每一个阶段。</h2>
+        <p>根据学生的课程安排、知识基础和实际需求，提供灵活、清晰、有针对性的服务支持。</p>
+      </div>
+      <div class="difference-list">
+        <article><span>01</span><div><h3>个性化方案</h3><p>根据学生的知识基础、课程进度和目标，制定针对性的服务安排。</p></div></article>
+        <article><span>02</span><div><h3>中英文沟通</h3><p>结合海外课程语境讲解重点，减少语言带来的理解障碍。</p></div></article>
+        <article><span>03</span><div><h3>灵活线上服务</h3><p>不受地域限制，根据时区与时间安排灵活沟通和排课。</p></div></article>
+        <article><span>04</span><div><h3>全流程跟进</h3><p>从需求梳理、方案确认到阶段答疑，关键节点及时同步。</p></div></article>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="section-heading">
+        <p class="eyebrow">HOW IT WORKS</p>
+        <h2>从提交需求开始，<br>每一步都清楚明白。</h2>
+      </div>
+      <ol class="process-list">
+        <li><span>01</span><div><h3>联系顾问</h3><p>说明学校、课程、目标和当前需要解决的问题。</p></div></li>
+        <li><span>02</span><div><h3>整理需求</h3><p>补充课程资料、学校邮件、截止时间等必要信息。</p></div></li>
+        <li><span>03</span><div><h3>匹配方案</h3><p>确认服务内容、时间安排、交付节点与费用。</p></div></li>
+        <li><span>04</span><div><h3>开始服务</h3><p>按计划推进，并提供阶段答疑和后续跟进。</p></div></li>
+      </ol>
+    </section>
+
+    <section class="boundaries" id="boundaries">
+      <div>
+        <p class="eyebrow">PERSONALIZED SUPPORT</p>
+        <h2>围绕学生需求，<br>提供一对一服务支持。</h2>
+      </div>
+      <div class="boundary-card">
+        <h3>多场景服务内容</h3>
+        <p>覆盖知识讲解、作业思路、课程补习、考试复习、材料修改、申诉梳理、升学申请与求职准备等不同需求。</p>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="section-heading compact">
+        <p class="eyebrow">FAQ</p>
+        <h2>咨询前，你可能想知道</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>没有整理好材料，也可以先问吗？<span>+</span></summary><p>可以。先说清楚学校、事情类型和截止时间，我们会告诉你下一步需要准备哪些信息。</p></details>
+        <details><summary>为什么网站上没有统一价格？<span>+</span></summary><p>不同学校、课程、材料量与时间要求差异较大。正式报价应基于明确范围，避免低价吸引后临时加项。</p></details>
+        <details><summary>提交的材料如何处理？<span>+</span></summary><p>正式上线前需建立隐私政策、数据保存期限和删除机制。原型表单不会上传或保存任何内容。</p></details>
+        <details><summary>能保证申诉成功或拿到录取吗？<span>+</span></summary><p>不能。学校与机构拥有最终决定权，服务方只能基于真实材料提高准备质量，不应承诺结果。</p></details>
+      </div>
+    </section>
+
+    <section class="consult" id="consult">
+      <div class="consult-copy">
+        <p class="eyebrow light">START A CONVERSATION</p>
+        <h2>把情况说清楚，<br>下一步就不再模糊。</h2>
+        <p>填写后会在本页生成一份“咨询摘要”，方便你整理后发送给顾问。此演示不会上传或保存数据。</p>
+      </div>
+      <form id="consult-form">
+        <label>你想咨询的方向
+          <select id="service-select" required>
+            <option value="">请选择</option>
+            <option>课程与学业辅导</option><option>学校事务与申诉</option><option>升学与研究支持</option><option>实习与求职准备</option><option>其他留学事务</option>
+          </select>
+        </label>
+        <div class="form-row">
+          <label>所在国家 / 地区<input id="region" type="text" placeholder="例如：英国"></label>
+          <label>最近截止时间<input id="deadline" type="text" placeholder="例如：本周五"></label>
+        </div>
+        <label>简单描述你的情况<textarea id="situation" rows="5" placeholder="例如：收到学校邮件，需要在 7 天内回复……" required></textarea></label>
+        <label class="consent"><input type="checkbox" required> 我了解此页面为演示，不会提交或保存信息</label>
+        <button class="button form-button" type="submit">生成咨询摘要 <span>→</span></button>
+        <div class="form-result" id="form-result" aria-live="polite" hidden>
+          <div class="result-head"><strong>咨询摘要</strong><button type="button" id="copy-result">复制</button></div>
+          <pre id="result-text"></pre>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><img class="brand-logo-img" src="assets/beimei-official-logo.jpg" alt="倍美教育 BEIMEI EDUCATION"></div>
+    <p>原创网站原型 · 所有服务以正式协议与实际能力为准</p>
+    <div><a href="#boundaries">合规说明</a><a href="#faq">常见问题</a><a href="#top">回到顶部 ↑</a></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
